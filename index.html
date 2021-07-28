@@ -15,49 +15,68 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- header section  -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light header-color fixed-top">
-            <div class="container">
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="">Shop</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="">News</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="">Contact</a>
-                  </li>
-                  <li><a href=""><button class="btn btn-color text-white" type="submit">Login</button></a></li>
+<!-- header section  -->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light header-color fixed-top">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       <li class="nav-item">
+        <a class="nav-link active text-white" aria-current="page" href="">Home</a></li>
+          <li class="nav-item">
+          <a class="nav-link text-white" href="">Shop</a></li>
+          <li class="nav-item">
+           <a class="nav-link text-white" href="">News</a></li>
+          <li class="nav-item">
+          <a class="nav-link text-white" href="">Contact</a></li>
+        <li><a href=""><button class="btn btn-color text-white" type="submit">Login</button></a></li>
                 </ul>
               </div>
             </div>
-          </nav>
-          <!-- cover section -->
-          <section class="header-color">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                      <div class="row p-5 d-flex align-items-center">
-                          <div class="col-lg-6 col-md-6 col-sm-12">
-                              <p class="fw-lighter paragraph-color">Computer-controlled digital transistorized with electronic advance</p>
-                              <h1 class="head-text-color">Honda CBR 300R</h1>
-                              <p class="fw-lighter paragraph-color">Amet minim mollit non deserunt ullamco est sit aliqua <br>
-                                  dolor do amet sint. Velit officia consequat duis enim velit <br> mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                             <button class="btn btn-color text-white">Purchase
-                             </button>
-                            </div>
-                          <div class="col-lg-6 col-md-6 col-sm-12">
-                            <img src="images/header-bike.png" class="d-block w-100"alt="">
-                          </div>
-                      </div>
-                    </div>
-            </header>
+      </nav>
+ <!-- cover section -->
+<section class="header-color">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+     <div class="carousel-item active">
+      <div class="row p-5 d-flex align-items-center">
+       <div class="col-lg-6 col-md-6 col-sm-12">
+        <p class="fw-lighter paragraph-color">Computer-controlled digital transistorized with electronic advance</p>
+        <h1 class="head-text-color">Honda CBR 300R</h1>
+        <p class="fw-lighter paragraph-color">Amet minim mollit non deserunt ullamco est sit aliqua <br>
+       dolor do amet sint. Velit officia consequat duis enim velit <br>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>  
+                             
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-color text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Purchase
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Purchase your favourite bike in low prices</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12">
+    <img src="images/header-bike.png" class="d-block w-100"alt="">
+    </div>
+       </div>
+ </div>
+  </header>
     <main>
         <!-- featured section  -->
          <div class="d-flex justify-content-center mt-4">
@@ -81,7 +100,7 @@
              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
            </div>
            <div class="m-3">
-           <button class="btn btn-color">Buy Now</button>
+           <button class="btn btn-color">Learn More</button>
            </div>
          </div>
        </div>
@@ -93,7 +112,7 @@
              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
            </div>
            <div class="m-3">
-               <button class="btn btn-color">Buy Now</button>
+               <button class="btn btn-color">Learn More</button>
            </div>
          </div>
        </div>
@@ -105,7 +124,7 @@
              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
            </div>
            <div class="m-3">
-               <button class="btn btn-color">Buy Now</button>
+               <button class="btn btn-color">Learn More</button>
            </div>
          </div>
        </div>
@@ -208,6 +227,21 @@
       <button type="submit" class="btn btn-success">Submit</button>
     </div>
   </form>
+    </section>
+    <!-- feedback section  -->
+    <section class="feedback-color container pt-4 pb-4 my-5 col-lg-10 col-md-10 col-sm-10">
+      <div class="d-flex justify-content-center mt-4 mb-4">
+          <h1>Your feedback</h1>
+      </div> 
+      <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label"><h3>Tell your Favourite bike name from our shop</h3></label>
+        <input type="text" class="form-control" id="formGroupExampleInput"> 
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label"><h3>What do you like in our shop?</h3></label>
+        <input type="text" class="form-control" id="formGroupExampleInput2">
+      </div>
+      <button class="btn btn-color text-white">Submit</button>
     </section>
 
     </main>

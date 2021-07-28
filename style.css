@@ -40,7 +40,7 @@
     background-color: lightgray;
 }
 
-.feedback-background-color {
-    background-color: lightskyblue;
-    font-size: x-large
+.feedback-color {
+    background-color: rgb(233, 233, 170);
+
 }
