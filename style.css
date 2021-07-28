@@ -1,0 +1,46 @@
+/* font awesome  */
+/* body {
+    font-family: 'Poppins', sans-serif;
+} */
+
+/* header section style  */
+.header-color {
+    background-color: #264653;
+
+}
+
+.head-text-color {
+    color: #FFFFFF;
+
+}
+
+.paragraph-color {
+    color: #E0E0E0;
+
+}
+
+.btn-color {
+    background-color: #E76F51;
+}
+
+/* featured section style  */
+.feature-paragraph-color {
+    color: #E76F51;
+}
+
+/* latest news style  */
+
+/* happy clients style */
+.client-header-color {
+    color: #E76F51;
+}
+
+/* extra form section style  */
+.form-background {
+    background-color: lightgray;
+}
+
+.feedback-background-color {
+    background-color: lightskyblue;
+    font-size: x-large
+}
