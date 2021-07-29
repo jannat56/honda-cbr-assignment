@@ -21,9 +21,14 @@
 /* featured section style  */
 .feature-paragraph-color {
     color: #E76F51;
+    font-weight: bold;
 }
 
-/* latest news style  */
+/* bike section  */
+.bike-gray {
+
+    filter: grayscale(100%);
+}
 
 /* happy clients style */
 .client-header-color {
@@ -62,16 +67,3 @@
     background-color: rgb(233, 233, 170);
 
 }
-
-.bike-gray {
-
-    filter: grayscale(100%);
-}
-
-
-/* .img-grayscal {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-} */
